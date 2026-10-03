@@ -1,0 +1,1 @@
+This is a fun personal project where I'm experimenting with computer vision and gesture control. The goal is to use a webcam to recognize hand gestures and trigger related memes or GIFs.
