@@ -80,6 +80,7 @@ with HandLandmarker.create_from_options(options) as landmarker:
 
     while True:
         success, frame = cap.read()
+        frame = cv2.flip(frame, 1)
 
         if not success:
             print("Could not access camera crodie")
